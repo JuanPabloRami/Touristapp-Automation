@@ -16,7 +16,6 @@ public class OpenThePage implements Task {
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
                 Open.browserOn(new TourtistApp())
-
         );
     }
 
