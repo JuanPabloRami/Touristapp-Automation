@@ -22,4 +22,6 @@ public class RegisterUserTourist {
             .locatedBy("//*[@id=\"acceptTerms\"]");
     public static final Target BTN_REGISTER_USER = Target.the("Button the register user")
             .locatedBy("//*[@id=\"root\"]/div/div[4]/div[1]/form/button");
+    public static final  Target BTN_FILE = Target.the("Button file")
+            .locatedBy("//*[@id=\"root\"]/div/div[4]/div[1]/form/div[1]/label");
 }

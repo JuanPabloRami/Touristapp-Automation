@@ -19,7 +19,6 @@ public class CreateTourist implements Task {
                 Enter.theValue("alopez900@misena.edu.co").into(RegisterUserTourist.INPUT_EMAIL),
                 Enter.theValue("123456789").into(RegisterUserTourist.INPUT_PASSWORD),
                 Enter.theValue("123456789").into(RegisterUserTourist.INPUT_PASSWORD_CONFIRM),
-                Click.on(RegisterUserTourist.INPUT_TERMS_CONDITION),
                 Click.on(RegisterUserTourist.BTN_REGISTER_USER)
         );
     }
