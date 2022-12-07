@@ -28,13 +28,12 @@ public class RegisterStepDefinition {
 
     @Given("^Alejo want to create a account$")
     public void alejoWantToCreateAAccount() {
-
         Alejo.wasAbleTo(OpenThePage.on());
-        Alejo.wasAbleTo(CreateUser.to());
     }
 
     @When("^He fills in the form fields$")
     public void heFillsInTheFormFields() {
+        Alejo.wasAbleTo(CreateUser.to());
     }
 
     @Then("^He should sees in screen the text of successful register$")
