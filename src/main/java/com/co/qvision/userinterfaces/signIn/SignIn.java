@@ -11,4 +11,6 @@ public class SignIn {
             .locatedBy("//*[@id=\"pass\"]");
     public static final Target BTN_SIGNIN = Target.the("Button of sign in")
             .locatedBy("//*[@id=\"root\"]/div/div[3]/div[1]/form/button");
+    public static final Target ICON_CLOSE = Target.the("Button of sign in")
+            .locatedBy("//*[@id=\"root\"]/div/div[3]/div[1]/button");
 }

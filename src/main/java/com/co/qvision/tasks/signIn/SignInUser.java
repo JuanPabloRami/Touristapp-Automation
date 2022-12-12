@@ -5,6 +5,7 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
+import org.openqa.selenium.remote.server.handler.ImplicitlyWait;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
@@ -16,6 +17,7 @@ public class SignInUser implements Task {
                 Enter.theValue("holi@gmail.com").into(SignIn.INPUT_EMAIL),
                 Enter.theValue("123456789").into(SignIn.INPUT_PASSWORD),
                 Click.on(SignIn.BTN_SIGNIN)
+                //Click.on(SignIn.ICON_CLOSE)
         );
     }
 

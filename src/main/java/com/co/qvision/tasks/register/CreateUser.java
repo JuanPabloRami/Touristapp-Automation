@@ -1,13 +1,12 @@
 package com.co.qvision.tasks.register;
 
 import com.co.qvision.userinterfaces.register.MyAccount;
-import com.co.qvision.userinterfaces.register.TourtistApp;
+
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 
-import java.io.File;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 

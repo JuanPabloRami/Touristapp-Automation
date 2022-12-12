@@ -3,7 +3,6 @@ package com.co.qvision.userinterfaces.register;
 import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
-import java.io.File;
 
 public class MyAccount {
 
