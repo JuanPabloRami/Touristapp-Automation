@@ -31,6 +31,7 @@ public class CreateBusinessStepDefinition {
     public void heFillsInTheFormFields() throws InterruptedException {
         Thread.sleep(6000);
         Alejo.wasAbleTo(CreateBusinessTask.create());
+        Thread.sleep(5000);
     }
 
     @Then("^He should sees the profile created with success$")

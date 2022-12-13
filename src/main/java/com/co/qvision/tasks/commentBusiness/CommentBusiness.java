@@ -15,11 +15,11 @@ public class CommentBusiness implements Task {
         actor.attemptsTo(
                 Click.on(CommentBusinessInterfaces.BTN_SEARCH),
                 Click.on(CommentBusinessInterfaces.INPUT_SEARCH),
-                Enter.theValue("SENA").into(CommentBusinessInterfaces.INPUT_SEARCH),
+                Enter.theValue("Panda Disco").into(CommentBusinessInterfaces.INPUT_SEARCH),
                 Click.on(CommentBusinessInterfaces.BTN_BUSINESS),
                 Click.on(CommentBusinessInterfaces.BTN_LIKE_BUSINESS),
                 Scroll.to(CommentBusinessInterfaces.TITLE_BUSINESS),
-                Enter.theValue("El mejor centro para adquirir conocimientos nuevos, lo recomiendo").into(CommentBusinessInterfaces.INPUT_COMMENT),
+                Enter.theValue("Mera rumba parce").into(CommentBusinessInterfaces.INPUT_COMMENT),
                 Click.on(CommentBusinessInterfaces.BTN_SEND_COMMENT)
         );
     }
