@@ -132,7 +132,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 12-12-2022 18:39</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 12-12-2022 23:23</span>
     <br style="clear:left"/>
 </div>
 
@@ -175,9 +175,9 @@ To give opinions on businesses
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Successful comment business
+                                <span class="error-color">Successful comment business
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -194,42 +194,59 @@ To give opinions on businesses
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">No such window exception: no such window: target window already closed</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.NoSuchWindowException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.co.qvision.tasks.signIn.SignInTourist.performAs(SignInTourist.java:14)<br />co.com.qvision.stepdefinitions.commentBusiness.CommentBusinesStepdefinition.alejoWantToCommentABusiness(CommentBusinesStepdefinition.java:29)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="#" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="4ae8760ac5d3b7c9f55d037560fcff57fae55170f2ff46160b04e036fd44aa2a.png" title=" Given Alejo want to comment a business" width="1600"/>
-                <img src="4ae8760ac5d3b7c9f55d037560fcff57fae55170f2ff46160b04e036fd44aa2a.png" title=" (0) Open the page TouristApp" width="1600"/>
-                <img src="4ae8760ac5d3b7c9f55d037560fcff57fae55170f2ff46160b04e036fd44aa2a.png" title=" Alejo opens the Tourtist app" width="1600"/>
-                <img src="4ae8760ac5d3b7c9f55d037560fcff57fae55170f2ff46160b04e036fd44aa2a.png" title=" (0) Open the page TouristApp (completed)" width="1600"/>
-                <img src="e4e1e77efc2e538ed999b1899c0a8c7f5ae60a68636d0446efbd55993046f2c5.png" title=" Alejo sign in tourist" width="1600"/>
-                <img src="72eb59b047892f1897a83594f17cd6702862fbad0eb7f7ac49ef801e666f9153.png" title=" Alejo clicks on Button of sign in" width="1600"/>
-                <img src="a1c27a73f635b93ae7f95b0b7d17125391e53751b6c375d7edbe47e727b69d48.png" title=" Alejo clicks on Button of sign in (completed)" width="1600"/>
-                <img src="a1c27a73f635b93ae7f95b0b7d17125391e53751b6c375d7edbe47e727b69d48.png" title=" Alejo enters 'alejandromoncada@gmail.com' into Input email" width="1600"/>
-                <img src="f7c52caf7ab3164385af266ae9505c5d4f24cd0b4c94dc5065a3eaab50609c6f.png" title=" Alejo enters 'alejandromoncada@gmail.com' into Input email (completed)" width="1600"/>
-                <img src="f7c52caf7ab3164385af266ae9505c5d4f24cd0b4c94dc5065a3eaab50609c6f.png" title=" Alejo enters '123456789' into Input password" width="1600"/>
-                <img src="8d7dfefdc7a31ce45fc39e849713c55ab34d0f6419dee5457edfb2461c5866bd.png" title=" Alejo enters '123456789' into Input password (completed)" width="1600"/>
-                <img src="8d7dfefdc7a31ce45fc39e849713c55ab34d0f6419dee5457edfb2461c5866bd.png" title=" Alejo clicks on Button of sign in" width="1600"/>
-                <img src="a8d3bf872576cadaeb52cf34af920b361b3f0ef5ba7363a75072fc0e7cc33a66.png" title=" Alejo clicks on Button of sign in (completed)" width="1600"/>
-                <img src="a8d3bf872576cadaeb52cf34af920b361b3f0ef5ba7363a75072fc0e7cc33a66.png" title=" Alejo sign in tourist (completed)" width="1600"/>
-                <img src="a8d3bf872576cadaeb52cf34af920b361b3f0ef5ba7363a75072fc0e7cc33a66.png" title=" Given Alejo want to comment a business (completed)" width="1600"/>
-                <img src="e61bde824caff58354c2418af2e02fa67e02201c13fda11c87f57bef0efde61d.png" title=" When He write a comment" width="1600"/>
-                <img src="e61bde824caff58354c2418af2e02fa67e02201c13fda11c87f57bef0efde61d.png" title=" Alejo comment business" width="1600"/>
-                <img src="e61bde824caff58354c2418af2e02fa67e02201c13fda11c87f57bef0efde61d.png" title=" Alejo clicks on Button the search" width="1600"/>
-                <img src="3d1d4177fb9fdb69549b5678007b1f86bf61336c8d97ccd543306c6b858da3ba.png" title=" Alejo clicks on Button the search (completed)" width="1600"/>
-                <img src="3d1d4177fb9fdb69549b5678007b1f86bf61336c8d97ccd543306c6b858da3ba.png" title=" Alejo clicks on Input search" width="1600"/>
-                <img src="bf26ddb5345129bd500bef52e3f364ad0fe28a9a1966aaad90ac5529b4e13b06.png" title=" Alejo clicks on Input search (completed)" width="1600"/>
-                <img src="bf26ddb5345129bd500bef52e3f364ad0fe28a9a1966aaad90ac5529b4e13b06.png" title=" Alejo enters 'SENA' into Input search" width="1600"/>
-                <img src="a954e943ab84c0e09ee393462cabde99e5132ccf1526a014847e640751dc2476.png" title=" Alejo enters 'SENA' into Input search (completed)" width="1600"/>
-                <img src="a954e943ab84c0e09ee393462cabde99e5132ccf1526a014847e640751dc2476.png" title=" Alejo clicks on Button go to business" width="1600"/>
-                <img src="96f61b077d65db52edb688ccd9df8fe2c3e792adece4322f8f2d8515e493b7b8.png" title=" Alejo clicks on Button go to business (completed)" width="1600"/>
-                <img src="96f61b077d65db52edb688ccd9df8fe2c3e792adece4322f8f2d8515e493b7b8.png" title=" Alejo clicks on Button the like" width="1600"/>
-                <img src="7b4f94092f1fbfb66ad9b7557dfbfc7f52495137e3f56770173da750fef8102c.png" title=" Alejo clicks on Button the like (completed)" width="1600"/>
-                <img src="2ab26c7d3fe993dc88871c40e195c852d3355c19c14e21bbf9c2206a7e1f5e1a.png" title=" Alejo enters 'El mejor centro para adquirir conocimientos nuevos, lo recomiendo' into input comment" width="1600"/>
-                <img src="aef3f20c9dfaae8a00323600586b8695eb4a651987db96a29927510cbdf4a3fa.png" title=" Alejo enters 'El mejor centro para adquirir conocimientos nuevos, lo recomiendo' into input comment (completed)" width="1600"/>
-                <img src="aef3f20c9dfaae8a00323600586b8695eb4a651987db96a29927510cbdf4a3fa.png" title=" Alejo clicks on button send comment" width="1600"/>
-                <img src="5e767d3641956b1be19e7ab9546df51610d19a08816cb514a93f625e55948a37.png" title=" Alejo clicks on button send comment (completed)" width="1600"/>
-                <img src="5e767d3641956b1be19e7ab9546df51610d19a08816cb514a93f625e55948a37.png" title=" Alejo comment business (completed)" width="1600"/>
-                <img src="5e767d3641956b1be19e7ab9546df51610d19a08816cb514a93f625e55948a37.png" title=" When He write a comment (completed)" width="1600"/>
-                <img src="5e767d3641956b1be19e7ab9546df51610d19a08816cb514a93f625e55948a37.png" title=" Then He should sees the comment in the business: <span class='success-color'>SUCCESS</span>" width="1600"/>
+                <img src="ff00bc68417a7be98b60de395cae65f28b83305ec05c157feb1b2584d318dd01.png" title=" Given Alejo want to comment a business" width="1600"/>
+                <img src="ff00bc68417a7be98b60de395cae65f28b83305ec05c157feb1b2584d318dd01.png" title=" (0) Open the page TouristApp" width="1600"/>
+                <img src="ff00bc68417a7be98b60de395cae65f28b83305ec05c157feb1b2584d318dd01.png" title=" Alejo opens the Tourtist app" width="1600"/>
+                <img src="e742d976a97a60562212151744ce374a45656b93931e2cb7361754591a8883ec.png" title=" (0) Open the page TouristApp (completed)" width="1600"/>
+                <img src="57caa435e231ecadae8cf7935c9798c671542ab4e683a047001f55d7ade5090b.png" title=" Alejo sign in tourist" width="1600"/>
+                <img src="a14b8dce35f36a9ebdf85a83e6fdb5e101909270fb9b4093df372de153dd4d1f.png" title=" Alejo clicks on Button of sign in" width="1600"/>
+                <img src="0f7eb57466bf7db978c2cec7f551031d904858375a8050c94187d4d2afcd7091.png" title=" Alejo clicks on Button of sign in (completed)" width="1600"/>
+                <img src="0f7eb57466bf7db978c2cec7f551031d904858375a8050c94187d4d2afcd7091.png" title=" Alejo enters 'alejandromoncada@gmail.com' into Input email" width="1600"/>
+                <img src="b6ac9131807cb268ac632d0a39f012eebcf9c73695838d6543c7ef3293214524.png" title=" Alejo enters 'alejandromoncada@gmail.com' into Input email (completed)" width="1600"/>
+                <img src="b6ac9131807cb268ac632d0a39f012eebcf9c73695838d6543c7ef3293214524.png" title=" Alejo enters '123456789' into Input password" width="1600"/>
+                <img src="6f256c939a1f4310b00077251eb778cfa68eb2fc76f0b6a2b6702c0e97566fdd.png" title=" Alejo enters '123456789' into Input password (completed)" width="1600"/>
+                <img src="6f256c939a1f4310b00077251eb778cfa68eb2fc76f0b6a2b6702c0e97566fdd.png" title=" Alejo clicks on Button of sign in: <span class='error-color'>ERROR</span>" width="1600"/>
             </div>
         </div>
 

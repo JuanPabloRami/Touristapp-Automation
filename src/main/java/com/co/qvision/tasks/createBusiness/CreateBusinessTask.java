@@ -51,7 +51,7 @@ public class CreateBusinessTask implements Task {
                 Enter.keyValues(path).into(CreateMyBusiness.INPUT_IMG),
                 Click.on(CreateMyBusiness.CHECK_PROMOTION),
                 Click.on(CreateMyBusiness.BTN_CRATE_ITEM),
-                Click.on(CreateMyBusiness.IMG_SCROLL),
+                Scroll.to(CreateMyBusiness.IMG_SCROLL),
                 Click.on(CreateMyBusiness.BTN_CREATE_BUSINESS),
                 Click.on(CreateMyBusiness.BTN_CREATE_CONFIRM_BUSINESS)
         );

@@ -10,7 +10,7 @@ public class SignIn {
     public static final Target INPUT_PASSWORD = Target.the("Input password")
             .locatedBy("//*[@id=\"pass\"]");
     public static final Target BTN_SIGNIN = Target.the("Button of sign in")
-            .locatedBy("//*[@id=\"root\"]/div/div[3]/div[1]/form/button");
+            .locatedBy("//*[@id=\"root\"]/div/div[4]/div[1]/form/button");
     public static final Target ICON_CLOSE = Target.the("Button of sign in")
             .locatedBy("//*[@id=\"root\"]/div/div[3]/div[1]/button");
 }
