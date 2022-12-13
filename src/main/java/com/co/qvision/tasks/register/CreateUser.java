@@ -24,7 +24,7 @@ public class CreateUser implements Task {
                 Enter.theValue("123456789").into(MyAccount.INPUT_PASSWORD),
                 Enter.theValue("123456789").into(MyAccount.INPUT_CONFIRMPASSWORD),
                 Click.on(MyAccount.ACCEPT_TERMS),
-                Click.on(MyAccount.BTN_CONFIR_REGISTER)
+                Click.on(MyAccount.BTN_CONFIRM_REGISTER)
         );
     }
 
